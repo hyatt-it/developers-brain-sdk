@@ -1,6 +1,6 @@
 # dbrain
 
-Dünner Python-Client + CLI für [developers-brain](https://github.com/julianhyatt/developers-brain)
+Dünner Python-Client + CLI für [developers-brain](https://github.com/hyatt-it/developers-brain)
 — für Skripte, Hooks und CI-Jobs, die suchen, einreichen oder Feedback geben
 wollen, ohne den Server-Stack (FastAPI, SQLAlchemy, Postgres-Treiber) zu
 installieren. Einzige Laufzeit-Abhängigkeit: [httpx](https://www.python-httpx.org/).
@@ -8,7 +8,7 @@ installieren. Einzige Laufzeit-Abhängigkeit: [httpx](https://www.python-httpx.o
 ## Installation
 
 ```bash
-pip install "dbrain @ git+https://github.com/julianhyatt/developers-brain-sdk.git@v0.2.0"
+pip install "dbrain @ git+https://github.com/hyatt-it/developers-brain-sdk.git@v0.2.0"
 ```
 
 Immer gegen einen Tag installieren, nie gegen `@main` — sonst installieren
